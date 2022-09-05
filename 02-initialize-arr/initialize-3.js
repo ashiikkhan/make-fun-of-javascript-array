@@ -48,6 +48,42 @@ const numbers = [
 
 for (let i = 0; i < numbers.length; i++) {
   for (let j = 0; j < numbers[i].length; j++) {
-    console.log(numbers[i][j]);
+    // console.log(numbers[i][j]);
   }
 }
+
+//Matrix Example:
+const matrixA = [
+  [1, 2],
+  [3, 4],
+  [3, 6],
+];
+
+const matrixB = [
+  [3, 6],
+  [1, 4],
+  [7, 8],
+];
+
+for (let i = 0; i < matrixA.length; i++) {
+  const row = [];
+  for (let j = 0; j < matrixA[i].length; j++) {
+    const sum = matrixA[i][j] + matrixB[i][j];
+    row.push(sum);
+  }
+  console.log(row);
+}
+
+// const matrixSum = (matrixA, matrixB) => {
+//   const result = [];
+//   for (let i = 0; i < matrixA.length; i++) {
+//     const row = [];
+//     for (let j = 0; j < matrixA[i].length; j++) {
+//       row.push(matrixA[i][j] + matrixB[i][j]);
+//     }
+//     result.push(row);
+//   }
+//   return result;
+// };
+// const matrixC = matrixSum(matrixA, matrixB);
+// console.log(matrixC);
