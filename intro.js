@@ -1,6 +1,6 @@
 /**What is Array ?
  * Array is a data structure. Array is Just A Collection.
- * Array is a data structure consisting of collection of elements, each edentified by at least one array index or key.
+ * Array is a data structure consisting of collection of elements, each identified by at least one array index or key.
  *
  **Why we need Array? Why we don't use variable instead of array?
  * we can write variable with a single value but for storing multiple values and elements in a single variable we use array.
